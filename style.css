@@ -65,38 +65,38 @@
 }
 
 .dropdown-menu.active .main .a:nth-child(1) {
-    transition-delay: 0.2s;
+    transition-delay: 0.1s;
 }
 
 .dropdown-menu.active .main .a:nth-child(2) {
-    transition-delay: 0.4s;
+    transition-delay: 0.18s;
 }
 
 .dropdown-menu.active .main .a:nth-child(3) {
-    transition-delay: 0.55s;
+    transition-delay: 0.26s;
 }
 
 .dropdown-menu.active .main .a:nth-child(4) {
-    transition-delay: 0.7s;
+    transition-delay: 0.34s;
 }
 
 .dropdown-menu.active .main .a:nth-child(5) {
-    transition-delay: 0.85s;
+    transition-delay: 0.42s;
 }
 
 .dropdown-menu.active .main .a:nth-child(6) {
-    transition-delay: 1s;
+    transition-delay: 0.5s;
 }
 
 .dropdown-menu.active .main .a:nth-child(7) {
-    transition-delay: 1.2s;
+    transition-delay: 0.6s;
 }
 
 /* Closing state - smooth fade and slide-out */
 .dropdown-menu.closing {
     left: -100%; /* Slide back out */
     opacity: 0; /* Fade out the menu */
-    transition: left 1.5s ease-in-out, opacity 1.5s ease-in-out; /* Smooth transition for the menu */
+    transition: left 1s ease-in-out, opacity 1s ease-in-out; /* Smooth transition for the menu */
 }
 
 /* Ensure menu items reverse their animation when closing */
@@ -107,31 +107,31 @@
 }
 
 .dropdown-menu.closing .main .a:nth-child(1) {
-    transition-delay: 0.1s;
+    transition-delay: 0.05s;
 }
 
 .dropdown-menu.closing .main .a:nth-child(2) {
-    transition-delay: 0.25s;
+    transition-delay: 0.12s;
 }
 
 .dropdown-menu.closing .main .a:nth-child(3) {
-    transition-delay: 0.4s;
+    transition-delay: 0.22s;
 }
 
 .dropdown-menu.closing .main .a:nth-child(4) {
-    transition-delay: 0.55s;
+    transition-delay: 0.35s;
 }
 
 .dropdown-menu.closing .main .a:nth-child(5) {
-    transition-delay: 0.7s;
+    transition-delay: 0.5s;
 }
 
 .dropdown-menu.closing .main .a:nth-child(6) {
-    transition-delay: 0.85s;
+    transition-delay: 0.65s;
 }
 
 .dropdown-menu.closing .main .a:nth-child(7) {
-    transition-delay: 1s;
+    transition-delay: 0.8s;
 }
 
 /* Image inside the dropdown */
