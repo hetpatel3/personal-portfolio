@@ -67,7 +67,7 @@
 
 
       <!-- Navigation Bar -->
-      <div
+      <div id="navbar"
         class="navbar w-[92%] ms-[4%] xl:w-[96%] xl:ms-[2%] md:w-[94%] md:ms-[3%] 2xl:w-[96%] 2xl:ms-[2%] h-[7vh] md:h-[8vh] bg-[rgba(0,0,0,0.85)] rounded-es-[15px] rounded-ee-[15px] flex justify-between items-center px-[5%] backdrop-blur-[0.75px] fixed top-0 left-0 z-50"
       >
         <div class="logo w-auto h-[inherit] flex justify-start items-center">
@@ -77,7 +77,7 @@
         <span class="text-[rgb(246,139,7)]">H</span>et
           </h1>
         </div>
-        <div
+        <div id="menu"
           class="menu w-auto h-[inherit] flex justify-end items-center *:text-white gap-[2.5vw] text-[15px]"
         >
           <a href="#Home" class="hidden md:flex">Home</a>
@@ -102,13 +102,13 @@
       <!-- Drop Down Menu HTML -->
       <div class="dropdown-menu z-[100]">
         <div class="main">
-          <div class="a hover:bg-[rgb(45,45,45)]"><a href="#Home">Home</a></div>
-          <div class="a hover:bg-[rgb(45,45,45)]"><a href="#About">About</a></div>
-          <div class="a hover:bg-[rgb(45,45,45)]"><a href="#Resume">Education</a></div>
-          <div class="a hover:bg-[rgb(45,45,45)]"><a href="#Exp">Experience</a></div>
-          <div class="a hover:bg-[rgb(45,45,45)]"><a href="#Skills">Skills</a></div>
-          <div class="a hover:bg-[rgb(45,45,45)]"><a href="#Projects">Projects</a></div>
-          <div class="a hover:bg-[rgb(45,45,45)]"><a href="#Contact">Contact</a></div>
+          <a class="a" href="#Home"><div>Home</div></a>
+          <a class="a" href="#About"><div>About</div></a>
+          <a class="a" href="#Resume"><div>Education</div></a>
+          <a class="a" href="#Exp"><div>Experience</div></a>
+          <a class="a" href="#Skills"><div>Skills</div></a>
+          <a class="a" href="#Projects"><div>Projects</div></a>
+          <a class="a" href="#Contact"><div>Contact</div></a>
           <div class="img">
             <img id="close-btn" src="/assets/close.png" alt="" />
           </div>
@@ -595,9 +595,6 @@
 
               <div data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease" class="box w-[100%] h-auto py-[1vh] bg-[rgb(17,16,16)] rounded-[10px] text-white px-[5%] flex flex-col items-center juctify-center overflow-hidden">
 
-
-                <!-- Box 01 -->
-
                 <div class="box w-[100%] h-auto py-[1vh] bg-[rgb(17,16,16)] rounded-[10px] text-white flex flex-col items-center juctify-center hover:bg-[rgb(241,139,7)] hover:scale-[1.05] duration-[0.75s]">
                   <div class="image w-[40px] md:w-[50px] h-[40px] md:h-[50px] p-[1.5%] lg:p-[0.75%] bg-[black] border-[0.75px] border-[rgb(241,139,7)] rounded-[7.5px] md:rounded-[10px] flex justify-center items-center shadow-[5px_5px_#787777bf;] md:shadow-[8px_8px_#787777bf;]">
                     <img class="w-[30px] md:w-[40px] lg:w-[45px]" src="/assets/project.png" alt="">
@@ -617,17 +614,42 @@
   
                   </div>
                 </div>
-
-                <!-- Box 01 -->
-
-                
               
                </div>
 
               <!-- Box 01 -->
 
 
-              <!-- Box 01 -->
+               <!-- Box 02 -->
+
+              <div data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease" class="box w-[100%] h-auto py-[1vh] bg-[rgb(17,16,16)] rounded-[10px] text-white px-[5%] flex flex-col items-center juctify-center overflow-hidden">
+
+                <div class="box w-[100%] h-auto py-[1vh] bg-[rgb(17,16,16)] rounded-[10px] text-white flex flex-col items-center juctify-center hover:bg-[rgb(241,139,7)] hover:scale-[1.05] duration-[0.75s]">
+                  <div class="image w-[40px] md:w-[50px] h-[40px] md:h-[50px] p-[1.5%] lg:p-[0.75%] bg-[black] border-[0.75px] border-[rgb(241,139,7)] rounded-[7.5px] md:rounded-[10px] flex justify-center items-center shadow-[5px_5px_#787777bf;] md:shadow-[8px_8px_#787777bf;]">
+                    <img class="w-[25px] md:w-[30px]" src="/assets/chat-project-2.png" alt="">
+                  </div>
+  
+  
+                  <div class="content text-center mt-[1vh] ps-[5%] flex flex-col gap-[1vh] text-[13px] xs:text-[15px] md:text-[18px]">
+                    <p class="font-bold text-[20px] xs:text-[22px] md:text-[24px]"><a href="https://github.com/hetpatel3/Chat-App" target="_blank">ChatVerse  <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+  
+  
+                    <p class="font-semibold text-[11px] xs:text-[13px] md:text-[15px]">Node.js, Express.js, Socket.io, HTML, CSS, JavaScript</p>
+                    
+                    <ul class="list-disc ms-[0%] mt-[0.5vh] *:mt-[0.75vh] text-[11px] xs:text-[13px] md:text-[13px] lg:text-[15px] text-start">
+                      <li>Built <strong>ChatVerse</strong>, a real-time chat application using Node.js, Express.js and Socket.io.</li>
+                      <li>it include username-based identification, dynamic chat alignment, and responsive UI for seamless user experience.</li>
+                    </ul>
+  
+                  </div>
+                </div>
+              
+               </div>
+
+              <!-- Box 02 -->
+
+
+              <!-- Box 03 -->
 
               <div data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease" class="box w-[100%] h-auto py-[1vh] bg-[rgb(17,16,16)] rounded-[10px] text-white px-[5%] flex flex-col items-center juctify-center overflow-hidden">
 
@@ -648,7 +670,7 @@
                     
                     <ul class="list-disc ms-[0%] mt-[0.5vh] *:mt-[0.75vh] text-[11px] xs:text-[13px] md:text-[13px] lg:text-[15px] text-start">
                       <li>Designed a responsive and visually attractive travel website utilizing HTML, CSS, and JavaScript, adhering to front-end web development practices and design standards.</li>
-                      <li>Created user-friendly navigation, captivating content sections, and dynamic features to improve the overall user experience.</li>
+                      <li>Created user-friendly navigation and dynamic features to improve the overall user experience.</li>
                     </ul>
   
                   </div>
@@ -660,15 +682,12 @@
               
                </div>
 
-              <!-- Box 01 -->
+              <!-- Box 03 -->
 
 
-              <!-- Box 01 -->
+              <!-- Box 04 -->
 
               <div data-aos="fade-up" data-aos-duration="800" data-aos-easing="ease" class="box w-[100%] h-auto py-[1vh] bg-[rgb(17,16,16)] rounded-[10px] text-white px-[5%] flex flex-col items-center juctify-center overflow-hidden">
-
-
-                <!-- Box 01 -->
 
                 <div class="box w-[100%] h-auto py-[1vh] bg-[rgb(17,16,16)] rounded-[10px] text-white flex flex-col items-center juctify-center hover:bg-[rgb(241,139,7)] hover:scale-[1.05] duration-[0.75s]">
                   <div class="image w-[40px] md:w-[50px] h-[40px] md:h-[50px] p-[1.5%] lg:p-[0.75%] bg-[black] border-[0.75px] border-[rgb(241,139,7)] rounded-[7.5px] md:rounded-[10px] flex justify-center items-center shadow-[5px_5px_#787777bf;] md:shadow-[8px_8px_#787777bf;]">
@@ -683,20 +702,16 @@
                     <p class="font-semibold text-[11px] xs:text-[13px] md:text-[15px]">JavaScript</p>
                     
                     <ul class="list-disc ms-[0%] mt-[0.5vh] *:mt-[0.75vh] text-[11px] xs:text-[13px] md:text-[13px] lg:text-[15px] text-start">
-                      <li>Created a slot machine application in JavaScript, enabling users to enter deposit amounts and place bets on multiple lines, with algorithms dynamically calculating winning outcomes and payouts.</li>
-                      <li>Integrated error-handling mechanisms to deliver a seamless user experience, ensuring accurate input validation and guiding users smoothly through the betting process within the console interface.</li>
+                      <li>Created a slot machine application in JavaScript, enabling users to enter deposit amounts and place bets on multiple lines, with algorithms dynamically calculating winning payouts.</li>
+                      <li>Integrated error-handling mechanisms to deliver a seamless user experience and guiding users smoothly through the betting process within the console interface.</li>
                     </ul>
   
                   </div>
                 </div>
 
-                <!-- Box 01 -->
-
-                
-              
                </div>
 
-              <!-- Box 01 -->
+              <!-- Box 04 -->
 
               
               

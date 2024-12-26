@@ -23,6 +23,11 @@
     font-weight: 400;
 }
 
+.dropdown-menu .main .a:hover {
+    background-color: rgb(246, 139, 7);
+    color: black;
+}
+
 /* Active state - menu slides in */
 .dropdown-menu.active {
     left: 0; /* Slide to visible position */
@@ -149,4 +154,24 @@
 
 .dropdown-menu .main .img img:hover {
     transform: rotate(90deg); /* Rotate the image on hover */
+}
+
+#navbar #menu a{
+    position: relative; /* Ensure the parent element is positioned */
+}
+
+#navbar #menu a::before{
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2.5px;
+    background-color: rgb(246,139,7);
+    border-radius: 1px;
+    bottom: -2px; /* Position the underline at the bottom of the anchor */
+    left: 0;
+    transition: width 0.45s; /* Ensure the transition is applied to the width */
+}
+
+#navbar #menu a:hover::before{
+    width: 100%;
 }
